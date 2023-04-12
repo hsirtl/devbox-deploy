@@ -1,0 +1,14 @@
+# login to azure
+az login
+
+# set subscription
+az account set --subscription "MCAPS-External-HolgerSirtl"
+
+# create resource group
+az group create --name devcenterRG --location westeurope
+
+# create deployment
+az deployment group create --resource-group devcenterRG --template-file main.bicep
+
+# delete resource group
+az group delete --name devcenterRG --yes
