@@ -9,7 +9,7 @@ Edit the ./deploy/parameters.json file to match your needs. You can set followin
 - Name of one Project within the Dev Center
 - IDs of users to be configured as Dev Box Users
 
-You can look up User IDs in your Azure AD (it's the Object ID of the respective user). These users must be Azure AD members (i.e., no guest users).
+You can look up User IDs in your Azure AD (it's the Object ID of the respective user). These users must be Azure AD members (i.e., no guest users). These users are granted Dev Box User permissions.
 
 ## Login to Azure
 
